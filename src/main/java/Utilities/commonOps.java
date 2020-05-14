@@ -98,6 +98,7 @@ public class commonOps extends base
         driver.manage().timeouts().implicitlyWait(Long.parseLong(getData("timeOut")), TimeUnit.SECONDS);
 
     }
+
     public static void initApi()
     {
         RestAssured.baseURI= getData("url_api");
