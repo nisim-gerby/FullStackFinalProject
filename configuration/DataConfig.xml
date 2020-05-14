@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!--timeout -->
+    <timeOut>5</timeOut>
+
+    <!--credentials-->
+    <grafana_user>admin</grafana_user>
+    <grafana_password>admin</grafana_password>
+
+    <!-- platform-->
+    <!--<PlatfromName>web</PlatfromName>-->
+    <!--<PlatfromName>mobile</PlatfromName>-->
+   <!-- <PlatfromName>api</PlatfromName>-->
+    <PlatfromName>electron</PlatfromName>
+
+    <!--web-->
+    <BroswerName>Chrome</BroswerName>
+    <url>https://demo.nopcommerce.com</url>
+    <imageRepo>./imageRepository/</imageRepo>
+    <nopCommerce_email>atias_moran@walla.com</nopCommerce_email>
+    <nopCommerce_password>nisim1206</nopCommerce_password>
+
+    <!--mobile-->
+    <UDID>011a59c19805</UDID>
+    <APP_PACKAGE>com.shivgadhia.android.ukMortgageCalc</APP_PACKAGE>
+    <APP_ACTIVITY>.MainActivity</APP_ACTIVITY>
+
+    <!--restApi-->
+    <url_api>http://localhost:3000</url_api>
+
+    <!--electron-->
+     <Electron_driver_path>./Drivers/electron.exe</Electron_driver_path>
+
+</Environment>
+
